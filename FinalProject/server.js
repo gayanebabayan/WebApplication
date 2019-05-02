@@ -34,7 +34,7 @@ function onHttpStart() {
 
 // define a helper middleware function to check is user is loged in
 function ensureLogin(req, res, next){
-    if(!req.session.user){                              // is it ____  req.session.user _____?????
+    if(!req.session.user){                              
         res.redirect("/login");
     }
     else{
@@ -331,7 +331,7 @@ app.get("/department/:departmentId", ensureLogin, function(req, res){
         }
     })
     .catch(()=>{
-        res.status(404).render("error404");                     // using my error page
+        res.status(404).render("error404");                     
     })
 });
 
