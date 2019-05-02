@@ -1,13 +1,7 @@
 /***************************************************************************************************** 
- * WEB322 – Assignment 06
- * I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part 
- * of this assignment has been copied manually or electronically from any other source  
- * (including 3rd party web sites) or distributed to other students.
- * 
- * Name: Gayane Babayan     Student ID: 107-061-160        Date:  27-Nov-2018
  * 
  * Online (Heroku) Link:      https://protected-dusk-37637.herokuapp.com/
- * 
+ *
  * **************************************************************************************************/
 
 // require data-service.js and data-service-auth.js as a modules
