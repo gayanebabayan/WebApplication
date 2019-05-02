@@ -1,0 +1,40 @@
+/* background color for the upper toolbar*/
+div.container-fluid {
+    background-color: rgba(229, 241, 205, 0.712);
+}
+
+/* background color for all the page */
+body{
+    background-color: hsl(87, 36%, 95%);
+}
+
+/* title font styling */
+h2 {
+    color: rgb(4, 87, 4);
+    font-weight: bold;
+    font-style: inherit;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;     
+}
+
+/* text font styling */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+/* upper toolbar font styling */
+a, span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+/*message in red for not existing employees*/
+p.employeeError {
+    color: red;
+    font-size: 20px;
+}
