@@ -1,2 +1,6 @@
-# OOP244
-Lab Works &amp; Final Project _ using C++
+# Web-Application
+node.js
+express.js
+MongoDB / PostgreSQL
+requests/responses
+authentication, authorization, resource sharing, etc.
